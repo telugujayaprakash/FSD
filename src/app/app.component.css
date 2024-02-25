@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #e91313;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 60%;
+    /* border: 5px solid; */
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source:linear-gradient(to right,red,green,black,purple) ;
+    padding: 10px;
+    background-color: #bfebee;
+}
+.table{
+    width: 100%;
+}
